@@ -611,7 +611,7 @@ gunicorn app.main:app --workers 4 --worker-class uvicorn.workers.UvicornWorker
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-<!-- ### Coding Standards
+### Coding Standards
 
 - Follow PEP 8 style guide
 - Write docstrings for all functions/classes
@@ -642,7 +642,7 @@ feat(auth): add OAuth2 Google login
 Closes #123
 ```
 
---- -->
+---
 
 ## 🐛 Troubleshooting
 
