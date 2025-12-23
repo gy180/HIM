@@ -9,3 +9,4 @@ class User(Base):
     id = Column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
     email = Column(String(255), unique=True, nullable=False)
     full_name = Column(String(100), nullable=False)
+    role = Column(String(255), nullable=False)

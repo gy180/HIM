@@ -27,6 +27,7 @@ psycopg2-binary==2.9.10             # PostgreSQL adapter (fallback/sync operatio
 pydantic==2.12.5                    # Data validation using Python type hints
 pydantic-settings==2.12.0           # Settings management from env variables
 python-dotenv==1.2.1                # Load environment variables from .env
+jsonschema==4.25.1
 
 
 # ----------------------------------------------------------------------------

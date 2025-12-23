@@ -39,7 +39,7 @@ A modern church management system API built with FastAPI for managing members, c
 - Detailed member profiles (birthday, contact info, baptism records)
 - Family relationship tracking
 - Photo uploads
-- Custom field support per organization
+- Custom field support per department
 
 ### Attendance & Check-in
 - QR code-based check-in system
