@@ -1,0 +1,357 @@
+# ============================================================================
+# Python
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff (if you add Django later)
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff (if you add Flask components)
+instance/
+.webassets-cache
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.*
+!.env.example
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+
+# ============================================================================
+# IDEs and Editors
+# ============================================================================
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# NetBeans
+nbproject/
+
+# JetBrains IDEs
+.idea/
+*.iml
+out/
+
+
+# ============================================================================
+# Operating Systems
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# ============================================================================
+# Database
+# ============================================================================
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL
+*.pgsql
+*.backup
+
+# Database dumps
+*.sql
+*.dump
+
+
+# ============================================================================
+# Project Specific - Uploads & User Data
+# ============================================================================
+# Uploaded files
+uploads/
+media/
+user_uploads/
+
+# Generated files
+generated/
+temp/
+tmp/
+
+# CSV/Excel imports
+imports/*.csv
+imports/*.xlsx
+imports/*.xls
+!imports/.gitkeep
+
+# Exported files
+exports/*.csv
+exports/*.xlsx
+exports/*.pdf
+!exports/.gitkeep
+
+# QR codes
+qrcodes/
+generated_qrcodes/
+
+# Name tags
+nametags/*.pdf
+generated_nametags/
+
+
+# ============================================================================
+# Logs
+# ============================================================================
+logs/
+*.log
+*.log.*
+log/
+
+
+# ============================================================================
+# Security & Secrets
+# ============================================================================
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+secrets/
+.secrets/
+credentials/
+.credentials/
+
+# API keys
+api_keys.txt
+.api_keys
+
+
+# ============================================================================
+# FastAPI / Uvicorn
+# ============================================================================
+# PID files
+*.pid
+
+
+# ============================================================================
+# CI/CD
+# ============================================================================
+.github/workflows/*.log
+
+
+# ============================================================================
+# Backup files
+# ============================================================================
+*.bak
+*.backup
+*.old
+*.orig
+
+
+# ============================================================================
+# Compressed files
+# ============================================================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+
+# ============================================================================
+# Documentation builds
+# ============================================================================
+docs/_build/
+docs/site/
+
+
+# ============================================================================
+# Node.js (if you have frontend in same repo)
+# ============================================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.yarn/
+package-lock.json
+yarn.lock
+
